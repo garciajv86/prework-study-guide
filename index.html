@@ -12,7 +12,87 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>HTML is used to structure a webpage.</li>
+          <li>HTML is made up of elements which work together to provide content and the basic framework for all pages on the web.</li>
+          <li>An element is a type of content on a webpage.</li>
+          <li>Elements are also used to divide the content on the page and to describe the content to browsers and other developers.</li>
+          <li>HTML attributes define additional information about an element.</li>
+          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <li>Elements that are nested inside other elements are called child elements.</li>
+          <li>The element that holds all the child elements is known as the parent element.</li>
+          <li>Metadata is data about our webpage that the browser uses to effectively serve our webpage to users.</li>
+          <li>Metadata is typically not seen by users, but it contains important information about accessibility, search engines, and performance.</li>
+          <li>Search engine optimization (SEO) is the process of improving the ranking of a website in search engines.</li>
+          <li>Semantic HTML elements—The name of the element describes its content and the role it plays on a webpage. When possible, it is important to use semantic HTML elements, because they make your HTML easier to read by other developers and the browser. Semantic HTML also plays an important role in making sure your webpage is accessible to the widest variety of users, including those who use assistive technologies such as screen readers.</li>
+          <li>The words “element” and “tag” are commonly used interchangeably in the web dev world, but it is important to know the difference. An element refers to the entire element from opening tag to closing tag, whereas a tag refers only to what appears inside the angle brackets.</li>
+          <li>Headings are larger or more prominent titles and subtitles to organize a page.</li>
+          <li>The header element usually appears at the top of the page and usually contains a navigation menu and/or intriductory content.</li>
+          <li>Order matters! When using headings, it is important that we use heading tags in order from h1 to h6 to make the page accessible to users who access the page using screen readers or other devices. In addition, the biggest heading,h1, should only appear once on each page.</li>
+          <li>The alt text is important for screen readers and other assistive technologies. Alt text can also improve search engine rankings for your website.</li>
+          <li>The footer element appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation.</li>
+          <li>The section element are elements that are semantic elements that define a section in a document that contains thematic content.</li>
+        </ul>
+      </section>
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status: checks what branch we are currently on.</li>
+          <li>git checkout -b branch name: creates a new branch and switches to it.</li>
+          <li>The git command must precede every git statement.</li>
+          <li>The checkout command is to move the working branch to a new branch.</li>
+          <li>The -b flag creates a new branch.</li>
+          <li>It is good practice to name the branches for the feature that will be deceloped by them to help indicate the purpose of each branch.</li>
+          <li>The add command adds modifications in the current working branch to the staging area.</li>
+          <li>The -A flag indicates that we want to add all changes.</li>
+          <li>The staging area informs Git that the changes will be added in the next commit.</li>
+          <li>Once files are staged to be committed, enter the git commit comand with a commit message that describes what the commit contains.</li>
+          <li>git commit -m "add starter code". In the Git statement, a commit was created that captures a snapshot of the currently staged changes. Once committed, branch will be updated with starter code.</li>
+          <li>Before push up to repo, double check if local branch is in sync with the base branch in GitHub. So pull down any changes from the base branch.</li>
+          <li>To pull from main use the git command: git pull origin main.</li>
+          <li>The pull command receives a branch's modifications into the local environment.</li>
+          <li>The origin keyword indicates the source of the pull will be in the GitHub repo.</li>
+          <li>The main keyword indicates the branch.</li>
+          <li>It is important to always do a git pull to make sure that you have the latest version of the project on your local computer before you start to work.</li>
+          <li>Once local branch is in sync with the remote base branch, push changes to the remote branch by using the following command: git push origin 'branch file name'</li>
+          <li>The command push push's the changes made locally to remote GitHub branch.</li>
+          <li>When using the push command, you can create a new remote branch or add new changes to an existing branch.</li>
+          <li>Now in the GitHub repo, select the branch from the drop down. Select the "Comparae & pull request" button.</li>
+          <li>Give the pull request(PR) a descriptive title. In the body add instructions for team members that will review the PR about what changes were made, how the feature is supposed to function, and how to start the application so the feature can be tested.</li>
+          <li>To merge the branch to the main branch, designate the base branch as main and the comparison branch as branch wanting to merge. Next, select the "Create Pull Request" button to make PR.</li>
+          <li>request team member to review the code before it is merged into the base branch. GitHub has a pull request review feature that has a quality assurance step necessary to ensure that only completed, quality code is merged into the base branch.</li>
+          <li>Use GitHub work flow to make sure our GitHub repo is in sync with what's on our own computer.</li>
+          <li>A branch is a copy or version of the code that can be worked on independently in isolation so development changes do not disrupt other team members who are also working on the code and testion their solutions.</li>
+          <li>The first step to creating a local development version is to create a feature branch. This branch is where we add our new code.</li>
+          <li>Our default branch is called main, but master may also be used in older versions.</li>
+          <li>So basically we branch off the main branch and create a feature branch, which is a copy of the main branch.</li>
+          <li>The feature branch is how we track changes that are made and maintain the main branch.</li>
+          <li>When we create a new branch to add something new to our project, we call it a feature branch because we are adding a new feature or functionality to our app.</li>
+          <li>In the feature branch, we make commits of all the changes we make to the code while working. We add a commit message that is descriptive of what changed in the code.</li>
+          <li>COMMIT OFTEN!</li>
+          <li>Then we push up the changes to our feature branch in our GitHub repo. But that code is still in our feature branch. In order to merge changes to main we open a PR.</li>
+          <li>A pull request is used t merge a comparison branch into the base branch.</li>
+          <li>Once PR is opened, other dev's and collaborators on team can view those changes made to code.</li>
+          <li>Once PR is approved, it can then be merged into the main branch.</li>
+          <li>From then on if new changes need to be made then branch of the newly updated main branch.</li>
+        </ul>
+      </section>
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
