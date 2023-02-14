@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -41,7 +42,27 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Cascading Style Sheets (CSS)—Programming language used by developers to define how webpage content is presented to users. CSS defines the colors, aesthetics, visual layout, and organization. Used to define style rules for specific elements of an HTML page and format them using a wide range of style options.</li>
+          <li>Three Ways To Style Webpage Using CSS: (1). Inline CSS (2). Internal CSS Style Sheet (2). External CSS Style Sheet</li>
+          <li>When a dev wants to style an element directly in the HTML file, they use inline CSS. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only. Theyre useful for quick and permanent changes but are less flexible than external and internal style sheets, because each inline style must be edited individually whenever you make a design change.</li>
+          <li>It is also possible to embed an entire stylesheet directly in the HTML file using a style element in the head element. This internal style sheet contains CSS rules for the webpage in the head section of the HTML file. The rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code. A single change to the CSS rule will apply to all tagged page elements.</li>
+          <li>The most common way to style a webpage is by using an external CSS style sheet. This is preferred in most cases because it allows devs to keep all their CSS rules in a separate file, which makes design changes easier.When using an external style sheet, we link the file using a link element placed in the HTMLs head.</li>
+          <li>Nerd Note: Separation of concern is a widely used term in web development and refers to separating code into different files based on use. Separation of concerns is based on the idea that each section of code should have its own responsibility.</li>
+          <li>CSS RULE: (1). Selector—Defines the element or attributes to which the rules, or declarations, will apply. (2). Declarations—Contain two important components: the CSS property we want to apply and the value of the property. Example, the declaration color: blue; includes the CSS property color and the value for that property, blue.</li>
+          <li>Margin Property—Indicates how much space we want around the outside of an element.</li>
+          <li>Padding Property—Adds space around the content inside an element.</li>
+          <li>It is important to know that every HTML element is essentially a box. Each box consists of margins outside the element, and the elements borders, padding, and content. This is sometimes referred to as the CSS Box Model.</li>
+          <li>Sometimes, we want to apply a rule to all the elements visible on the page. To do that, we use a special wild card symbol, or *.</li> 
+          <li>You can combine 2 selectors into a single CSS rule with a comma, allowing the declaration to affect both selectors. This helps write Do Not Repeat Yourself (DRY) code.</li>
+          <li>IMPORTANT: Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to  reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. DRY can greatly reduce the overall size and complexity of a codebase.</li>
+          <li>Besides text we can also apply CSS rules to images.</li>
+          <li>link element creates the connection to the external file.</li> 
+          <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+          <li>The href attributes specifies the location (URL) of the external resource. The href attribute is using a relative path. This means the location is derived from the current location. To locate the style sheet from the current location, use folder path and file.</li>
+          <li>Class Attribute—Allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector. Then the class attribute can be assigned to the element in the HTML, Enabling us to freely choose which elements will be assigned the CSS rule.</li>
+          <li>.card—Class selector</li>
+          <li>box-shadow—CSS property adds shadow effects around an elements frame. You can set multiple effects separated by commas. A box-shadow is described by x and y offsets relative to the element, blur, and spread radius, and color</li>
+          <li>IMPORTANT: Assigning colors in CSS can be done in many ways, including by semantic references such as gray or blue. We can also refer to a color by its hexadecimal code, or hex #.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
