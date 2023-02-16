@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -111,7 +112,44 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>JavaScript (JS)— is a high-level dynamic programming language that allows users to interact with websites. In web development, JavaScript is the tool that takes a static HTML/CSS webpage and make it interactive.</li>
+          <li>JavaScript is a dynamic language with dynamic types. Variables are not directly associated with any particular value type, and any variable can be assigned (and re-assigned) values of all types.</li>
+          <li>JavaScript is also a weakly typed language, which means it allows implicit type conversion when an operation involves mismatched types, instead of throwing type errors.</li>
+          <li>Conceptually, undefined indicates the absence of a value, while null indicates the absence of an object (which could also make up an excuse for typeof null === “object”). The language usually defaults to undefined when something is devoid of a value.</li>
+          <li>Null is a keyword, but undefined is a normal identifier that happens to be a global property.</li>
+          <li>Nerd Note: A .js file extension indicates that the file is a JavaScript file.</li>
+          <li>In JavaScript, to declare a variable, we use the var keyword. After the var keyword, we give the variable a name. Finally, we use the assignment operator = to assign the specific data that we want stored in our variable. Note that each line of JavaScript code ends with a semicolon.</li>
+          <li>console.log method—Method to output a message to the web console by adding an argument. The word console refers to a test environment that developers use to check out their code. The second part, .log(), is a method, which means a set of instructions that can be executed by a computer. The .log() method will output whatever we add inside the parentheses to the console.</li>
+          <li>We use the script tag in our HTML file to link our JS file.</li>
+          <li>Use Chrome DevTools to View console.log Output:
+
+            (1) While looking at your index.html file in the browser, right-click anywhere in the browser window and select “inspect” from the menu.
+            You can also open Chrome DevTools using keyboard command. If youre using macOS, you can press Command+Options+I.
+            
+            (2) Click the Console tab and you should see a web console.\
+            </li>
+            <li>Control Flow— The order in which a computer executes code in a script. Control flow can be interrupted, however. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
+            <li>If statement—A way of introducing decision-making into code. The code will only execute if the statement meets a condition, or is true.</li>
+            <li>A value is considered false if it is one of the following values: 0, -0, On, “”, null, undefined, NaN, or a Bool data type with the value of false. All other values are considered truthy. </li>
+            <li>If we have more than one condition we can use else if</li>
+            <li>Array—A single variable that is used to hold a group of data. Typically used to hold data that is related in some way. Arrays are not limited to contain only a single type of data. A single array can store different types of data</li>
+            <li>IMPORTANT:
+              Arrays are useful tools for storing multiple items with different data types in a single variable, but not all arrays must have multiple data types.</li>
+            <li>When working with single data items, we simply use the variable name to access the stored data. 
+              To work with individual data items inside an array, we need to have one more piece of information: the location of the data item in the array. This location is identified with a unique number called an index. Using each piece of datas index, or location number, we can access individual data inside the array. Arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1. The indices, or location identifiers, will always be whole numbers that increase by 1 each time. If we wanted to access only a certain item, we start with the name of the variable that stores the array then we add the index of the item to the end of the array name in square brackets. </li>
+            <li>for loop- Uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.To use the for loop, we need to know the items index and the arrays length. The array length is important because the for loop needs to know how many times the code will run until there are no items left in the array. We can find the length of an array by using a built-in property of an array, appropriately named length. Devs must use another statement, such as the conditional if statement to interrupt the control flow by executing a block of code a specific number of times.</li>  
+            <li>(1) Keyword "for"
+              (2) Three-part conditional statement
+              (3) Code bloc</li>
+            <li>A for loop contains the following three important statements:
+
+              (1) The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0.
+              
+              (2) The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running.
+              
+              (3) The final statement is what allows the array to iterate over each item. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1.
+              </li>
+            <li>Finally, we put the code that we want to be executed for each loop inside curly brackets. In place of the index number we can add the variable x form our for loop.</li>
         </ul>
       </section>
     </main>
@@ -119,5 +157,8 @@
     <footer>
       <p>I can code!</p>
     </footer>
+
+    <script src="./assets/script.js"></script>
+
   </body>
 </html>
