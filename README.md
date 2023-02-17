@@ -2,7 +2,7 @@
 
 ## Description
 
-I build this website for Bootcamp students to have a study guide for the prework studies. Also, It helps to relieve some of the anxiety experienced by students by giving them the information by subjects that they can study one at a time. During this project I myself learnt HTML, CSS, Git, JavaScript and how they all interact with one another. I also learnt The Git Flow and how important it is to follow, along with how to create an SSH key to connect to the GitHub repository's in a secure manner.
+I built this website for Bootcamp students to have a study guide for the prework studies. Also, It helps to relieve some of the anxiety experienced by students by giving them the information by subjects that they can study one at a time. During this project I myself learnt HTML, CSS, Git, JavaScript and how they all interact with one another. I also learnt The Git Flow and how important it is to follow, along with how to create an SSH key to connect to the GitHub repository's in a secure manner.
 
 ## Installation
 
